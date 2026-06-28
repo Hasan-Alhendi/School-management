@@ -1,0 +1,3 @@
+include README.md
+include license.txt
+recursive-include school_management *.py *.json *.js *.css *.html *.md

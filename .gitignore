@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.env
+.DS_Store
+node_modules/
+public/js/*.min.js
+public/css/*.min.css
