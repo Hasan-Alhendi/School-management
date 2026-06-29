@@ -5,7 +5,12 @@ app_description = "Custom school management app for ERPNext"
 app_email = "support@horizontechco.com"
 app_license = "MIT"
 
-fixtures = []
+fixtures = [
+    {
+        "dt": "Print Format",
+        "filters": [["name", "in", ["صحيفة الطالب - الجلاء الرسمي"]]],
+    }
+]
 
 # Includes
 app_include_css = "/assets/school_management/css/school_management.css"
